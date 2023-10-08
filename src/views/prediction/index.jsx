@@ -28,10 +28,13 @@ const Prediction = () => {
                 }) => (
                     <div class="container">
                         <FormGroup style={{ position: "absolute" }} onSubmit={handleSubmit}>
-                            <FormControl >
+                      
+                            <FormControl focused>
                                 <InputLabel color="primary" focused htmlFor="date">Storm Date Prediction</InputLabel>
+                                <Input style={{ color: "white" }} type="date" color="warning" name="date" id="date" />
                             </FormControl>
-                            <Input style={{ color: "white" }} type="date" color="warning" name="date" id="date" />
+                
+                            
 
                             <FormControl >
                                 <InputLabel color="warning" focused htmlFor="temperature">Temperature</InputLabel>

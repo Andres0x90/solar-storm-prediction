@@ -1,18 +1,16 @@
-.input-number{
+.inputNumber{
     color: white;
 }
+
 
 .container{
     display:flex;
     justify-content: center;
     align-items: center;
-    text-align: left;
     margin: 0 auto ;
 }
 
 
-::-webkit-datetime-edit-year-field:not([aria-valuenow]),
-::-webkit-datetime-edit-month-field:not([aria-valuenow]),
-::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
-    color: transparent;
+.prediction-form{
+    width: 50%;
 }
