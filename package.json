@@ -10,8 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/styled": "^11.11.0",
+    "@flodlc/nebula": "^1.0.56",
+    "@mui/material": "^5.14.12",
+    "@mui/styled-engine": "^5.14.12",
+    "formik": "^2.4.5",
+    "i": "^0.3.7",
+    "npm": "^10.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
