@@ -56,7 +56,6 @@ const Prediction = () => {
                     return (
                         <div class="container">
                             <FormGroup style={{ position: "absolute" }} onSubmit={handleSubmit}>
-    <Field type="number" name="test"></Field>
                                 <FormControl focused>
                                     <InputLabel color="warning" focused htmlFor="date">PHI</InputLabel>
                                     <Input style={{ color: "white" }} type="number" color="warning" name="phi" id="phi" />
