@@ -25,35 +25,31 @@ const Prediction = () => {
                     isSubmitting,
                     /* and other goodies */
                 }) => (
-                    <Grid container>
-                        <Grid item xs={4}>
-                        </Grid>
-                        <Grid item xs={8}>
-                            <FormGroup style={{ position: "absolute" }} onSubmit={handleSubmit}>
-                                <FormControl >
-                                    <InputLabel color="warning" focused htmlFor="date">Storm Date Prediction</InputLabel>
-                                    <Input style={{ color: "white" }} type="date" color="warning" name="date" id="date" />
-                                </FormControl>
-                                <FormControl >
-                                    <InputLabel color="warning" focused htmlFor="temperature">Temperature</InputLabel>
-                                    <Input style={{ color: "white" }} type="number" color="warning" name="temperature" id="temperature" />
-                                </FormControl>
-                                <FormControl>
-                                    <InputLabel color="warning" htmlFor="density" focused>Density</InputLabel>
-                                    <Input style={{ color: "white" }} type="number" name="density" color="warning" id="density" />
-                                </FormControl>
-                                <FormControl className="input-number">
-                                    <InputLabel color="warning" htmlFor="speed" focused>Speed</InputLabel>
-                                    <Input  type="number" color="warning" name="speed" id="speed" />
-                                </FormControl>
-                                <Button variant="contained" color="success">
-                                    Predict
-                                </Button>
-                            </FormGroup>
+                    <div className="prediction-form">
 
-                        </Grid>
+                        <FormGroup style={{ position: "absolute center" }} onSubmit={handleSubmit}>
+                            <FormControl focused>
+                                <InputLabel color="warning" focused htmlFor="date">Storm Date Prediction</InputLabel>
+                                <Input style={{ color: "white" }} type="date" color="warning" name="date" id="date" focused />
+                            </FormControl>
+                            <FormControl >
+                                <InputLabel color="warning" focused htmlFor="temperature">Temperature</InputLabel>
+                                <Input style={{ color: "white" }} type="number" color="warning" name="temperature" id="temperature" />
+                            </FormControl>
+                            <FormControl>
+                                <InputLabel color="warning" htmlFor="density" focused>Density</InputLabel>
+                                <Input style={{ color: "white" }} type="number" name="density" color="warning" id="density" />
+                            </FormControl>
+                            <FormControl>
+                                <InputLabel color="warning" htmlFor="speed" focused>Speed</InputLabel>
+                                <Input style={{ color: "white" }} type="number" color="warning" name="speed" id="speed" />
+                            </FormControl>
+                            <Button variant="contained" color="success">
+                                Predict
+                            </Button>
+                        </FormGroup>
 
-                    </Grid>
+                    </div>
 
                 )}
             </Formik>

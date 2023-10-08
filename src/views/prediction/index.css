@@ -1,5 +1,9 @@
-.input-number{
+.inputNumber{
     color: white;
+}
+
+.prediction-form{
+    width: 50%;
 }
 
 ::-webkit-datetime-edit-year-field:not([aria-valuenow]),
