@@ -34,8 +34,6 @@ const Prediction = () => {
                                 <Input style={{ color: "white" }} type="date" color="warning" name="date" id="date" />
                             </FormControl>
                 
-                            
-
                             <FormControl >
                                 <InputLabel color="warning" focused htmlFor="temperature">Temperature</InputLabel>
                                 <Input style={{ color: "white" }} type="number" color="warning" name="temperature" id="temperature" />
@@ -46,7 +44,7 @@ const Prediction = () => {
                             </FormControl>
                             <FormControl className="input-number">
                                 <InputLabel color="warning" htmlFor="speed" focused>Speed</InputLabel>
-                                <Input type="number" color="warning" name="speed" id="speed" />
+                                <Input type="number" style={{ color: "white" }} color="warning" name="speed" id="speed" />
                             </FormControl>
 
                             <Button variant="contained" color="success">
